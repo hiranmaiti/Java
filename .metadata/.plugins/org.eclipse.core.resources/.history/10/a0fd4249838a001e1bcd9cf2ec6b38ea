@@ -1,0 +1,44 @@
+package rbi;
+
+public class Bank {
+	int interest;
+	
+	float getRateofInterest() {
+		return 0;
+		
+	}
+	
+	static class Sbi extends Bank {
+		float getRateofInterest() {
+			return 8.5f;
+		}
+		
+		public void setRateofInterest() {
+			this.interest = interest;
+		}
+	}
+	
+	static class Icic extends Bank {
+		float getRateofInterest() {
+			return 10.0f;
+		}
+		
+		public void setRateofInterest() {
+			this.interest = interest;
+		}
+	}
+	
+	static class Axis extends Bank {
+		float getRateofInterest() {
+			return 9.0f;
+		}
+		
+		public void setRateofInterest() {
+			this.interest = interest;
+		}
+	}
+	
+
+}
+
+
